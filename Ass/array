@@ -1,0 +1,14 @@
+#!/bin/bash
+android=("Kitkat" "Lollipop" "Marshmallow")
+echo "Array element before modification"
+echo "First element of array: ${android[0]}"
+echo "Second element of array: ${android[1]}"
+echo "Third element of array: ${android[2]}"
+ 
+echo "Array element after modification"
+android[0]="Oreo"
+android[1]="Nought"
+android[2]="Pie"
+echo "First element of array: ${android[0]}"
+echo "Second element of array: ${android[1]}"
+echo "Third element of array: ${android[2]}"

@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "Enter your age: "
+
+read n
+
+if (($n >= 0 && $n <= 17))
+then
+echo "You are Child"
+fi
+
+if (($n >= 18 && $n <= 50))
+then
+echo "You are Adult"
+fi
+
+if (($n >= 51 && $n <= 70))
+then
+echo "You are Old"
+fi
+
+

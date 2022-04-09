@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "What time of day now?"
+read n
+
+case $n in
+
+       M|m) echo "Morning";;
+       E|e) echo "Evening";;
+       *) echo "Not valied";;
+esac

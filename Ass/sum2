@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Keyboard Input 1st number:"
+read a
+echo "Keyboard Input 2nd number:"
+read b
+((n=a+b))
+echo "Output sum:"$n

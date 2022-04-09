@@ -1,0 +1,57 @@
+#!/bin/bash
+
+echo "Enter marks:"
+
+read n
+
+if (($n >= 80 && $n <= 100))
+then
+echo "A+(Plus)"
+fi
+
+if (($n >= 75 && $n <= 79))
+then
+echo "A(Regular)"
+fi
+
+if (($n >= 70 && $n <= 74))
+then
+echo "A-(Minus)"
+fi
+
+if (($n >= 65 && $n <= 69))
+then
+echo "B+(Plus)"
+fi
+
+if (($n >= 60 && $n <= 64))
+then
+echo "B(Regular)"
+fi
+
+if (($n >= 55 && $n <= 59))
+then
+echo "B-(Minus)"
+fi
+
+if (($n >= 50 && $n <= 54))
+then
+echo "C+(Plus)"
+fi
+
+if (($n >= 45 && $n <= 49))
+then
+echo "C(Regular)"
+fi
+
+if (($n >= 40 && $n <= 44))
+then
+echo "D"
+fi
+
+if (( $n < 40))
+then
+echo "F"
+fi
+
+

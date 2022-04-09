@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Enter 1st number:"
+read n
+
+echo "Enter 2nd number:"
+read m
+
+if (($n > $m))
+then
+echo "The greater number is :$n"
+else
+echo "The greater number is :$m"
+fi 

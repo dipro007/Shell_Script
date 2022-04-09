@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Enter any fruits name:"
+
+read n
+
+case $n in
+
+        Apple) echo "An apple a day keeps the doctor away";;
+        Mango) echo "Mango is the king of fruits";;
+        Orange) echo "Orange is good skin";;
+        *) echo "Wrong Input!!";;
+esac 
+

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "Enter a number: "
+
+read n
+
+a=0
+
+b=1
+
+echo "The Fibonacci series for "$n" is : "
+
+for (( i=0; i<$n; i++ ))
+do
+    echo -n "$a "
+    f=$((a + b))
+    a=$b
+    b=$f
+echo
+done

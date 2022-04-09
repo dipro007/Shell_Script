@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Enter Number: "
+read n
+fac=1
+echo -n "$n! = "
+for((i=n; i>=2; i--))
+do
+  fac=$((i*fac))
+  echo -n "$i*"
+done
+echo "1"
+echo "The factorial is : $fac"
+
+

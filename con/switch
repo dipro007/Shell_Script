@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read n
+case $n in
+   
+    G|g) echo "Good morning";;
+    E|e) echo "Good evening";;
+    N|n) echo "Good Night";;
+    *) echo "Not vailed";;
+esac

@@ -1,0 +1,7 @@
+#!/bin/bash 
+echo ‐n "Enter your name:” 
+read name 
+echo ‐n "Enter your student no:” 
+read stdno 
+echo "Your Name: $name” 
+echo "Your Age: $stdno” 
